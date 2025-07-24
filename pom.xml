@@ -41,13 +41,6 @@
 			<scope>test</scope>
 		</dependency>
 
-			<!-- Spring Core / Context -->
-			<dependency>
-				<groupId>org.springframework</groupId>
-				<artifactId>spring-context</artifactId>
-				<version>5.3.31</version>
-			</dependency>
-
 			<!-- (Optional) JSR-250 for @PostConstruct / @PreDestroy -->
 			<dependency>
 				<groupId>javax.annotation</groupId>
@@ -56,11 +49,11 @@
 			</dependency>
 
 			<!-- (Optional) Logging -->
-			<dependency>
-				<groupId>org.slf4j</groupId>
-				<artifactId>slf4j-simple</artifactId>
-				<version>1.7.36</version>
-			</dependency>
+<!--			<dependency>-->
+<!--				<groupId>org.slf4j</groupId>-->
+<!--				<artifactId>slf4j-simple</artifactId>-->
+<!--				<version>1.7.36</version>-->
+<!--			</dependency>-->
 
 	</dependencies>
 
